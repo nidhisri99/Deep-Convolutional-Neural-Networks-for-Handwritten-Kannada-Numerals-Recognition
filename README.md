@@ -1,1 +1,15 @@
-# Deep-learning-numerical-
+Deep Convolutional Neural Networks for Handwritten Kannada Numerals Recognition
+
+
+Abstract
+Kannada is a Dravidian language spoken predominantly by people of Karnataka in Southwestern India.  This paper presents the recognition of handwritten Kannada numerals using Deep Convolutional neural network(CNN).  The occurrence of handwritten text is abundant. Convolutional neural networks have been known for it's computationally efficient way of extracting features.  Here we perform a series of convolution and pooling operations for feature extraction. We have used the new Kannada MNIST dataset consisting of  60,000 samples of isolated handwritten numerals and a real-world handwritten dataset call Dig-MNIST. The proposed system achieves an accuracy of 98.24\% on the Kannada MNIST dataset and 86.85\% on the Dig-MNIST dataset.
+
+
+Introduction 
+
+Deep learning has been widely used for the recognition of handwritten characters as well as numerals. For humans, the recognition of Handwritten digits is very easy but it is difficult for machines to recognize handwritten digits. Using Deep Learning and Machine Learning methods, this task can be achieved with the models having very high accuracy. 
+	Unlike traditional methods which involve different preprocessing steps, deep learning automatically  identifies the features. Therefore, deep learning mostly depends on the data and hence can be applied to solve different kinds of problems, including handwritten characters and numerals recognition. There has been a huge progress in the field of Computer Vision with the application of deep learning in it.   
+	 A Convolutional Neural Network (ConvNet/CNN) is one of the types of deep neural networks which is mainly used to analyze images. It takes images as input and extracts different features from the image. It contains one input layer, one output layer and one or many hidden layers. CNNs are very useful and feasible in dealing with patterns involving spatial arrangements, thus useful in recognition of handwritten characters and digits. One of the main advantages of a Convolutional Neural Network (CNN) when compared to the traditional machine learning techniques is that it consequently distinguishes the significant features in the image with no human oversight.
+	 The MNIST dataset is a standard dataset used worldwide consisting of 60,000 samples for training and 10,000 for testing. Kannada language is the official language of the state of Karnataka,India spoken by over 50 million people all over the world. Similar to the MNIST dataset, the Kannada-MNIST dataset was introduced which contains the  Kannada-MNIST dataset as well as Dig-MNIST dataset. 
+	The Dig-MNIST is a very challenging dataset when compared to the Kannada-MNIST as the dig-MNIST was created with the help of volunteers that were non-native users of the language. 
+	The aim of this paper is to provide a classifier that achieves a very high accuracy on the Kannada-MNIST as well as Dig-MNIST datasets without further preprocessing.
